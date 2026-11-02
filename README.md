@@ -1,6 +1,6 @@
-# Hand Controller
+# GesturePilot
 
-Hand Controller is a Windows desktop-control project built in verified stages. **Stages 1 and 2 are complete:** it tracks all 21 hand landmarks with the MediaPipe Tasks API, draws them over a mirrored webcam preview, and maps the index fingertip to a smoothed system cursor with click, drag, right-click, and scroll gestures.
+GesturePilot is a Windows desktop-control project built in verified stages. **Stages 1 and 2 are complete:** it tracks all 21 hand landmarks with the MediaPipe Tasks API, draws them over a mirrored webcam preview, and maps the index fingertip to a smoothed system cursor with click, drag, right-click, and scroll gestures.
 
 The PySide6 dashboard, configurable gesture bindings, and packaging remain separate later stages so the webcam and gesture baseline can be debugged first.
 
