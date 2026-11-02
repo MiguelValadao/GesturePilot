@@ -1,0 +1,10 @@
+# Stage 1: hand tracking and cursor movement.
+# Tested wheel set for CPython 3.13 on 64-bit Windows.
+# Python 3.14 is intentionally unsupported until its native wheels are ready.
+mediapipe==0.10.33
+# MediaPipe depends on the contrib distribution; pinning it directly avoids
+# installing two packages that both provide the `cv2` module.
+opencv-contrib-python==4.11.0.86
+numpy==2.2.6
+PyAutoGUI==0.9.54
+

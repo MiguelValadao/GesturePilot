@@ -1,0 +1,25 @@
+{
+  "camera_index": 0,
+  "mirror_preview": true,
+  "max_hands": 1,
+  "detection_confidence": 0.6,
+  "presence_confidence": 0.6,
+  "tracking_confidence": 0.6,
+  "active_area": {
+    "left": 0.05,
+    "top": 0.05,
+    "right": 0.95,
+    "bottom": 0.95
+  },
+  "cursor_sensitivity": 1.5,
+  "smoothing": 0.45,
+  "pinch_threshold": 0.35,
+  "pinch_min_seconds": 0.06,
+  "drag_hold_seconds": 0.45,
+  "right_click_debounce_ms": 220,
+  "scroll_speed": 180.0,
+  "scroll_flick_velocity_threshold": 0.7,
+  "scroll_flick_gain": 2.5,
+  "scroll_flick_max_multiplier": 3.0
+}
+
