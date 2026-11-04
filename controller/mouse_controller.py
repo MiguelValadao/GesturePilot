@@ -25,7 +25,7 @@ class MouseController:
 
         self._pyautogui = pyautogui
         self._pyautogui.PAUSE = 0
-        self._pyautogui.FAILSAFE = True
+        self._pyautogui.FAILSAFE = False
         size = self._pyautogui.size()
         self._mapper = CursorMapper((size.width, size.height), active_area, sensitivity)
         self._smoother = CursorSmoother(smoothing)
