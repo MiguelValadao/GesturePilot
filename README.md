@@ -192,3 +192,5 @@ python -m unittest discover -s tests -v
 3. Responsive PySide6 dashboard with a threaded camera worker.
 4. Persistent configuration and customizable gesture bindings.
 5. Profiling, optimization, tests, and Windows executable packaging.
+
+
